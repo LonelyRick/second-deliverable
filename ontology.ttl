@@ -1,0 +1,74 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.owl-ontologies.com/wdt#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wdt:P1104 a owl:ObjectProperty ;
+    rdfs:label "p1104" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:NumPages .
+
+wdt:P2860 a owl:ObjectProperty ;
+    rdfs:label "p2860" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:Paper .
+
+wdt:P407 a owl:ObjectProperty ;
+    rdfs:label "p407" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:Lenguage .
+
+wdt:P577 a owl:ObjectProperty ;
+    rdfs:label "p577" .
+
+wdt:P953 a owl:ObjectProperty ;
+    rdfs:label "p953" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:URL .
+
+owl: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+owl:Organization a owl:Class ;
+    rdfs:label "Organization>" .
+
+owl:Project a owl:Class ;
+    rdfs:label "Project>" .
+
+owl:PublicationDate a owl:Class ;
+    rdfs:label "Publication Date>" .
+
+owl:hasAuthor a owl:ObjectProperty ;
+    rdfs:label "has author>" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:Author .
+
+owl:hasTitle a owl:ObjectProperty ;
+    rdfs:label "has title>" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range xsd:string .
+
+owl:hasTopic a owl:ObjectProperty ;
+    rdfs:label "has topic>" ;
+    rdfs:domain owl:Paper ;
+    rdfs:range xsd:string .
+
+owl:Author a owl:Class ;
+    rdfs:label "Author>" .
+
+owl:Lenguage a owl:Class ;
+    rdfs:label "Lenguage>" .
+
+owl:NumPages a owl:Class ;
+    rdfs:label "Num Pages>" .
+
+owl:URL a owl:Class ;
+    rdfs:label "U R L>" .
+
+xsd:string a owl:Class ;
+    rdfs:label "string" .
+
+owl:Paper a owl:Class ;
+    rdfs:label "Paper>" .
+
