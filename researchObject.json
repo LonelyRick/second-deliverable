@@ -1,0 +1,120 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "description": "RO-Crate Metadata File Descriptor (this file)"
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "DataType": "Project",
+            "author": [
+                {
+                    "@id": "#b190112"
+                },
+		        {
+                    "@id": "#b190085"
+                },
+		        {
+                    "@id": "#b190284"
+                },
+		        {
+                    "@id": "#b190119"
+                }
+			
+            ],
+            "description": "Advanced data analysis on research publications: Given a corpus of 30 papers, group them according common themes, link them in a Research Knowledge Graph (RKG) together with their metadata and funding information.",
+            "hasPart": [
+                {
+                    "@id": "#NER.ipynb"
+                },
+                {
+                    "@id": "#SparkIAOS.ipynb"
+                },
+                {
+                    "@id": "#TopicIAOS"
+                },
+                {
+                    "@id": "#WikiData.ipynb"
+                },
+                {
+                    "@id": "#IAOSGrupo.py"
+                },
+                {
+                    "@id": "#Grafo.py"
+                }
+            ],
+            "name": "second-deliverable"
+        },
+        {
+            "@id": "#b190112",
+            "@type": "Person",
+            "name": "Patricia Cifrian",
+            "position": [
+                "Student at UPM"
+            ]
+        },
+        {
+            "@id": "#b190085",
+            "@type": "Person",
+            "name": "Marta Hidalgo",
+            "position": [
+                "Student at UPM"
+            ]
+        },
+        {
+            "@id": "#b190284",
+            "@type": "Person",
+            "name": "Alejandro Ruiz",
+            "position": [
+                "Student at UPM"
+            ]
+        },
+        {
+            "@id": "#b190119",
+            "@type": "Person",
+            "name": "Ruben Llorente",
+            "position": [
+                "Student at UPM"
+            ]
+        },
+        {
+            "@id": "#NER.ipynb",
+            "@type": "SoftwareApplication",
+            "description": "It identifies named entities from the acknowledgement section of the given papers and classifies them."
+        },
+        {
+            "@id": "#SparkIAOS.ipynb",
+            "@type": "SoftwareApplication",
+            "description": "Given the titles and abstracts of the papers, it removes its stop words."
+        },
+        {
+            "@id": "#TopicIAOS",
+            "@type": "SoftwareApplication",
+            "description": "File that calculates the optimal cluster segmentation as well as Topic modeling."
+        },
+        {
+            "@id": "#WikiData.ipynb",
+            "@type": "SoftwareApplication",
+            "description": "It extracts external information from the external knowledge graphs: OpenAlex and Wikidata."
+        },
+        {
+            "@id": "#IAOSGrupo.py",
+            "@type": "SoftwareApplication",
+            "description": "It extracts titles, abstracts and acknowledgements from the given papers."
+        },
+        {
+            "@id": "#Grafo.py",
+            "@type": "SoftwareApplication",
+            "description": "It creates a knowledge graph collecting all the data that is extracted in the other programs and it enables the user to query the graph."
+        }
+    ]
+}
