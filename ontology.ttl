@@ -31,8 +31,8 @@ owl:hasDOI a owl:ObjectProperty ;
     rdfs:domain owl:Paper ;
     rdfs:range owl:URL .
 
-owl:hasLenguage a owl:ObjectProperty ;
-    rdfs:label "has lenguage>" ;
+owl:hasLanguage a owl:ObjectProperty ;
+    rdfs:label "has language>" ;
     rdfs:domain owl:Paper ;
     rdfs:range owl:Lenguage .
 
