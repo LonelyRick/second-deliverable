@@ -1,2 +1,60 @@
+applications. We also discussed other research directions and the open challenges that face PLS in future wireless networks. In summary, our review incorporated different aspects that are related to the optimization and design of PLS systems, including secure resource allocation, channel estimation and the integration of AI into practical strategies to help PLS. We believe that this paper can provide the research community with guidance for advancing the considerations of future PLS research.
+---
+This work was partly supported by Elsevier.
+---
+
+---
+We thank lab members at Institute of Industrial Design of Huaqiao University for their technical support. This research was assisted by the Institute of Industrial Design of Huaqiao University and the City University of Macau, and the State Key Laboratory of Subtropical Building Science, South China University of Technology.
+---
+We thank all patients for their support of our research.
+---
+
+---
+
+---
+
+---
+Special thanks to all the participants and specifically to Prof. Ed Arens for his contributions in guiding the research project.
+---
+
+---
+Acknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comments, corrections and inspiration.
+---
+
+---
+Acknowledgements We acknowledge the help of all the optometrists at DMDSC for performing the digital retinal colour photography for all the patients with Remidio Fundus on phone camera and the ophthalmologists at DMDSC, Gopalapuram for the ICDR grading. We acknowledge Dr. Kaushal Solanki, Founder and CEO, EyeNuk Inc., Los Angeles, California and his team for doing the automated analysis and for providing the technical information about Eye Art software.
+---
+We thank the staff of Maier Leibnitz Laboratory Munich for the great help and support at the experiments there and Thomas Schmid for providing the cells, protocols and access to his laboratories.
+---
+
+---
+
+---
 Acknowledgments: We appreciate Y.I.K. for secretary assistance.
+---
+We gratefully acknowledge support from a gift from Bloomberg L.P. and the support of NVIDIA Corporation with the donation of Tesla K40 GPUs. We thank Andrew Ng and his group as well as the Stanford Research Computing for letting us use their computing resources. We thank Russell Stewart for helpful discussions on the models. Lastly, we thank Quoc Le, Ilya Sutskever, Oriol Vinyals, Richard Socher, Michael Kayser, Jiwei Li, Panupong Pasupat, Kelvin Guu, members of the Stanford NLP Group and the annonymous reviewers for their valuable comments and feedback.
+---
+
+---
+
+---
+We acknowledge support by the Open Access Publication Fund of the University of Duisburg-Essen.
+---
+Establishing operating procedures and governance models are the fundamental concepts of the methodology proposed in this article. The presented use case demonstrates that the proposed steps help companies implement IPA successfully.
+---
+Regarding fine-tuning, we have already started an investigation using the top N most frequently used words in our corpus. Even though we have some preliminary results, this investigation is still a work in progress.
+---
+The authors are grateful to Jing Ye for technological guidance. They are grateful to Xuewen Chen, Lu Li, Chaoqun Zhang, and Yingyu Mao, who works in the department of dry eye, for their help in collecting data.
+---
+
+---
+
+---
+
+---
+We thank Na Jin Kim for performing the strategic literature search. We would also like to thank Ah Reum Kim for arranging the documents related to this research project.
+---
+
+---
+We thank all the cyclists that provided the data to build our system and agreed to be part of this project. We particularly thank the six cycling experts for taking the time to provide their expertise in cycling coaching.
 ---

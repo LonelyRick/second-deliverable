@@ -1,29 +1,30 @@
-A Comparison of Several AI Techniques for Authorship Attribution on Romanian Texts---0.9873177143148111---Topic 5
-Deep Learning-Based Channel Estimation for Doubly Selective Fading Channels---0.9930967206582918---Topic 5
-AI-Based Environmental Color System in Achieving---0.99464833699693---Topic 5
-Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligenceSustainable Urban Development---0.9953883484106439---Topic 5
-Attention Is All You Need---0.9956503078930659---Topic 5
-Encoding of phonology in a recurrent neural model of grounded speech---0.9913060240914567---Topic 5
-Attention-based Vocabulary Selection for NMT Decoding---0.9912008901788465---Topic 5
-A Supervised Approach to Extractive Summarisation of Scientific Papers---0.9896880003428005---Topic 5
-Modelling prosodic structure using Artificial Neural Networks---0.9867426198230437---Topic 5
-Embracing AI-Based Education: Perceived Social Presence of Human Teachers and Expectations About Machine Teachers in Online Education---0.989427880815595---Topic 5
-Artificial Intelligence for Efficient Thermal Comfort Systems Requirements, Current Applications and Future Directions---0.9945071216416361---Topic 5
-Meibomian Gland Density: An Effective Evaluation Index ofMeibomian Gland Dysfunction Based on Deep Learning and Transfer Learning---0.9941584074611688---Topic 5
-Towards an AI-Based Tailored Training Planning for Road Cyclists: A Case Study---0.9939841346160795---Topic 5
-A Review of Fundamental Optimization Approaches and the Role of AI Enabling Technologies in Physical Layer Security---0.9957548570270848---Topic 5
-Recent Applications of Artificial Intelligence from Histopathologic Image-Based Prediction of Microsatellite Instability in Solid Cancers: A Systematic Review---0.9914583880718969---Topic 5
-CeCILE - An Artificial Intelligence Based Cell-Detection for the Evaluation of Radiation Effects in Eucaryotic Cells---0.9940359976937202---Topic 5
-Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency---0.9884101419709723---Topic 5
-Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency---0.9884101419709723---Topic 5
-Training Gesture-Based-Scroll Visual Artificial  Intelligence And Measuring Its Effectiveness Using  Hidden-Markov Modeling Methods---0.988550279051001---Topic 5
-Ensuring the Reliability of Virtual Sensors Based on Artificial Intelligence within Vehicle Dynamics Control Systems---0.9910965381630832---Topic 5
-Development of Anticancer Peptides Using Artificial Intelligence and Combinational Therapy for Cancer Therapeutics---0.9928552385943259---Topic 5
-Rapid Post-Earthquake Structural Damage Assessment Using Convolutional Neural Networks and Transfer Learning---0.9932543412800827---Topic 5
-Applying Artificial Intelligence to Improve On-Site Non-Destructive Concrete Compressive Strength Tests---0.9937131811901115---Topic 5
-Detection and Evaluation of Machine Learning Bias---0.9936199363690865---Topic 5
-An AI-Powered Clinical Decision Support System to Predict Flares in Rheumatoid Arthritis: A Pilot Study---0.9949066309892388---Topic 5
-Artificial Intelligence Its Uses and Application in Pediatric Dentistry: A Review---0.9938098461352155---Topic 5
-Smart Crop Growth Monitoring Based on System Adaptivity and Edge AI---0.9932073011652268---Topic 5
-Intelligent Process Automation: An Application in Manufacturing Industry---0.9913880962918533---Topic 5
-Application of Artificial Intelligence-Based Technologies in the Healthcare Industry: Opportunities and Challenges---0.9926677598218032---Topic 5
+A Review of Fundamental Optimization Approaches and the Role of AI Enabling Technologies in Physical Layer Security---0.9957593528491541---Topic 5
+A Supervised Approach to Extractive Summarisation of Scientific Papers---0.9896813487508384---Topic 5
+Training Gesture-Based-Scroll Visual Artificial Intelligence And Measuring Its Effectiveness Using Hidden-Markov Modeling Methods---0.988553422943436---Topic 5
+AI-Based Environmental Color System in Achieving Sustainable Urban Development---0.9946469849343372---Topic 5
+An AI-Powered Clinical Decision Support System to Predict Flares in Rheumatoid Arthritis: A Pilot Study---0.9949040562255704---Topic 5
+Application of Artificial Intelligence-Based Technologies in the Healthcare Industry: Opportunities and Challenges---0.9926672788918013---Topic 5
+Application Strategies for Artificial Intelligencebased Clinical Decision Support System: From the Simulation to the Real-World---0.16666666666666669---Topic 5
+Applying Artificial Intelligence to Improve On-Site Non-Destructive Concrete Compressive Strength Tests---0.9937180217928668---Topic 5
+Artificial Intelligence for Efficient Thermal Comfort Systems: Requirements, Current Applications and Future Directions---0.9945046654592995---Topic 5
+Artificial Intelligence Its Uses and Application in Pediatric Dentistry: A Review---0.9938126976066118---Topic 5
+Attention Is All You Need---0.9956465321585335---Topic 5
+Attention-based Vocabulary Selection for NMT Decoding---0.9912021396483882---Topic 5
+Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligence---0.9953890734515756---Topic 5
+CeCILE -An Artificial Intelligence Based Cell-Detection for the Evaluation of Radiation Effects in Eucaryotic Cells---0.9940339466253272---Topic 5
+SPECIAL SECTION ON ARTIFICIAL INTELLIGENCE FOR PHYSICAL-LAYER WIRELESS COMMUNICATIONS---0.9930945639607245---Topic 5
+Detection and Evaluation of Machine Learning Bias---0.9936142064345744---Topic 5
+Development of Anticancer Peptides Using Artificial Intelligence and Combinational Therapy for Cancer Therapeutics---0.992858648998389---Topic 5
+Effective Approaches to Attention-based Neural Machine Translation---0.9914537987707205---Topic 5
+Embracing AI-Based Education: Perceived Social Presence of Human Teachers and Expectations About Machine Teachers in Online Education---0.9894381599800298---Topic 5
+Encoding of phonology in a recurrent neural model of grounded speech---0.9912993565281665---Topic 5
+Ensuring the Reliability of Virtual Sensors Based on Artificial Intelligence within Vehicle Dynamics Control Systems---0.9911048369362877---Topic 5
+Intelligent Process Automation: An Application in Manufacturing Industry---0.9913840774551212---Topic 5
+A Comparison of Several AI Techniques for Authorship Attribution on Romanian Texts---0.9873191327917814---Topic 5
+Meibomian Gland Density: An Effective Evaluation Index of Meibomian Gland Dysfunction Based on Deep Learning and Transfer Learning---0.9941528949796342---Topic 5
+Modelling prosodic structure using Artificial Neural Networks Modelling prosodic structure using Artificial Neural Networks---0.9867339756322787---Topic 5
+Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency---0.9884025787707293---Topic 5
+Rapid Post-Earthquake Structural Damage Assessment Using Convolutional Neural Networks and Transfer Learning---0.9932573663793506---Topic 5
+Recent Applications of Artificial Intelligence from Histopathologic Image-Based Prediction of Microsatellite Instability in Solid Cancers: A Systematic Review---0.9914631611365344---Topic 5
+Smart Crop Growth Monitoring Based on System Adaptivity and Edge AI---0.9932073860173682---Topic 5
+Towards an AI-Based Tailored Training Planning for Road Cyclists: A Case Study---0.9939849047623069---Topic 5

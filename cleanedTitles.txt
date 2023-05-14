@@ -1,58 +1,60 @@
-A Comparison of Several AI Techniques for Authorship Attribution on Romanian Texts
----
-Deep Learning-Based Channel Estimation for Doubly Selective Fading Channels
----
-AI-Based Environmental Color System in Achieving
----
-Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligenceSustainable Urban Development
----
-Attention Is All You Need
----
-Encoding of phonology in a recurrent neural model of grounded speech
----
-Attention-based Vocabulary Selection for NMT Decoding
+A Review of Fundamental Optimization Approaches and the Role of AI Enabling Technologies in Physical Layer Security
 ---
 A Supervised Approach to Extractive Summarisation of Scientific Papers
 ---
-Modelling prosodic structure using Artificial Neural Networks
+Training Gesture-Based-Scroll Visual Artificial Intelligence And Measuring Its Effectiveness Using Hidden-Markov Modeling Methods
 ---
-Embracing AI-Based Education: Perceived Social Presence of Human Teachers and Expectations About Machine Teachers in Online Education
----
-Artificial Intelligence for Efficient Thermal Comfort Systems Requirements, Current Applications and Future Directions
----
-Meibomian Gland Density: An Effective Evaluation Index ofMeibomian Gland Dysfunction Based on Deep Learning and Transfer Learning
----
-Towards an AI-Based Tailored Training Planning for Road Cyclists: A Case Study
----
-A Review of Fundamental Optimization Approaches and the Role of AI Enabling Technologies in Physical Layer Security
----
-Recent Applications of Artificial Intelligence from Histopathologic Image-Based Prediction of Microsatellite Instability in Solid Cancers: A Systematic Review
----
-CeCILE - An Artificial Intelligence Based Cell-Detection for the Evaluation of Radiation Effects in Eucaryotic Cells
----
-Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency
----
-Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency
----
-Training Gesture-Based-Scroll Visual Artificial  Intelligence And Measuring Its Effectiveness Using  Hidden-Markov Modeling Methods
----
-Ensuring the Reliability of Virtual Sensors Based on Artificial Intelligence within Vehicle Dynamics Control Systems
----
-Development of Anticancer Peptides Using Artificial Intelligence and Combinational Therapy for Cancer Therapeutics
----
-Rapid Post-Earthquake Structural Damage Assessment Using Convolutional Neural Networks and Transfer Learning
----
-Applying Artificial Intelligence to Improve On-Site Non-Destructive Concrete Compressive Strength Tests
----
-Detection and Evaluation of Machine Learning Bias
+AI-Based Environmental Color System in Achieving Sustainable Urban Development
 ---
 An AI-Powered Clinical Decision Support System to Predict Flares in Rheumatoid Arthritis: A Pilot Study
 ---
+Application of Artificial Intelligence-Based Technologies in the Healthcare Industry: Opportunities and Challenges
+---
+Application Strategies for Artificial Intelligencebased Clinical Decision Support System: From the Simulation to the Real-World
+---
+Applying Artificial Intelligence to Improve On-Site Non-Destructive Concrete Compressive Strength Tests
+---
+Artificial Intelligence for Efficient Thermal Comfort Systems: Requirements, Current Applications and Future Directions
+---
 Artificial Intelligence Its Uses and Application in Pediatric Dentistry: A Review
 ---
-Smart Crop Growth Monitoring Based on System Adaptivity and Edge AI
+Attention Is All You Need
+---
+Attention-based Vocabulary Selection for NMT Decoding
+---
+Automated diabetic retinopathy detection in smartphone-based fundus photography using artificial intelligence
+---
+CeCILE -An Artificial Intelligence Based Cell-Detection for the Evaluation of Radiation Effects in Eucaryotic Cells
+---
+SPECIAL SECTION ON ARTIFICIAL INTELLIGENCE FOR PHYSICAL-LAYER WIRELESS COMMUNICATIONS
+---
+Detection and Evaluation of Machine Learning Bias
+---
+Development of Anticancer Peptides Using Artificial Intelligence and Combinational Therapy for Cancer Therapeutics
+---
+Effective Approaches to Attention-based Neural Machine Translation
+---
+Embracing AI-Based Education: Perceived Social Presence of Human Teachers and Expectations About Machine Teachers in Online Education
+---
+Encoding of phonology in a recurrent neural model of grounded speech
+---
+Ensuring the Reliability of Virtual Sensors Based on Artificial Intelligence within Vehicle Dynamics Control Systems
 ---
 Intelligent Process Automation: An Application in Manufacturing Industry
 ---
-Application of Artificial Intelligence-Based Technologies in the Healthcare Industry: Opportunities and Challenges
+A Comparison of Several AI Techniques for Authorship Attribution on Romanian Texts
+---
+Meibomian Gland Density: An Effective Evaluation Index of Meibomian Gland Dysfunction Based on Deep Learning and Transfer Learning
+---
+Modelling prosodic structure using Artificial Neural Networks Modelling prosodic structure using Artificial Neural Networks
+---
+Multilevel Cognitive Machine-Learning-Based Concept for Artificial Awareness: Application to Humanoid Robot Awareness Using Visual Saliency
+---
+Rapid Post-Earthquake Structural Damage Assessment Using Convolutional Neural Networks and Transfer Learning
+---
+Recent Applications of Artificial Intelligence from Histopathologic Image-Based Prediction of Microsatellite Instability in Solid Cancers: A Systematic Review
+---
+Smart Crop Growth Monitoring Based on System Adaptivity and Edge AI
+---
+Towards an AI-Based Tailored Training Planning for Road Cyclists: A Case Study
 ---
