@@ -39,18 +39,19 @@ with open(file_path, "r",encoding='utf-8') as file:
     paragraphs = text.split("\n")
     for paragraph in paragraphs:
       partes = paragraph.split("---")
-      sujeto = partes[0]
-      propiedad = partes[1]
-      objeto = partes[2]
-      sujeto = sujeto.replace(" ", "_")
-      g.add((
-          URIRef("http://IAOS.com/resource/"+clase+"/"+sujeto),
-          URIRef("http://IAOS.com/def/property#" + propiedad),
-          Literal(objeto, datatype=XSD.string)))
-      if(clase=='author'):
-        clase="paper"
-      elif(clase=='paper'):
-        clase='author'
+      if(len(partes)==3):
+        sujeto = partes[0]
+        propiedad = partes[1]
+        objeto = partes[2]
+        sujeto = sujeto.replace(" ", "_")
+        g.add((
+            URIRef("http://IAOS.com/resource/"+clase+"/"+sujeto),
+            URIRef("http://IAOS.com/def/property#" + propiedad),
+            Literal(objeto, datatype=XSD.string)))
+        if(clase=='author'):
+          clase="paper"
+        elif(clase=='paper'):
+          clase='author'
 
 topic_path = 'Title_topic_prob.txt' # Replace with the actual file path
 
