@@ -44,13 +44,13 @@ pip install example
 
 5) Add in a folder all the downloaded PDFs that you want to have analyzed 
 
-6) Get Grobid Docker image and run it in port 8070
+6) Get Grobid Docker image and run it in port 8070 make sure to be on your working directory first
 ```bash
 docker pull lfoppiano/grobid:0.7.2
 docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
 ```
 
-8) Run the code the input parameter "path" should be the path of the folder where the papers are located
+7) Run the code the input parameter "path" should be the path of the folder where the papers are located
 ```bash
 python IAOSGrupo.py path
 ```
@@ -59,9 +59,9 @@ This will generate the files:
 - order.txt : the list of the titles in order. Is used to mantain the relation between paper and it's elements
 - abstract.txt : the abstracts of the papers retrieved from grobid 
 
-9) Input the files into your Google Colab. 
+8) Input the files into your Google Colab. 
 
-10) Run the Jupyter Notebooks called:
+9) Run the Jupyter Notebooks called:
 - NER.ipynb : We retrieve the organization associated with the paper
     - Input files: acknowledges.txt and order.txt
     - Output files: title_Ner.txt
@@ -72,26 +72,28 @@ This will generate the files:
     - Input files: order.txt
     - Output files: resultadoWikiData.txt and resultadoOpenAlex.txt
 
-11) Run the Jupyter Notebook TopicIAOS.ipynb
+10) Run the Jupyter Notebook TopicIAOS.ipynb
     - Input files: cleaned.txt and cleanedTitles.txt.
     - Output files: Topic_words.txt and Title_topic_prop.txt 
 
-12) You will now need to use the docker container. Before creating it download the files from your Google Drive:
+11) You will now need to use the docker container. Before creating it download the files from your Google Drive:
   - title_Ner.txt
   - Topic_words.txt
   - Title_topic_prop.txt
   - resultadoWikiData.txt
   - resultadoOpenAlex.txt
  
-13) To create the container, use this command in the same directory as the environment:
+12) To create the container, use this command in the same directory as the environment:
 ```bash
 docker build -t iaos .
 ```
-14) To run the container:
+
+13) To run the container:
 ```bash
 docker run -it iaos
 ```
-15) Once the code Grafo.py is running, it will ask for a promt of the intended query. 
+
+14) Once the code Grafo.py is running, it will ask for a promt of the intended query. 
 The query *must* be written in a single line. 
 
 Some examples are: 
