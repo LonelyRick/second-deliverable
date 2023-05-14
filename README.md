@@ -100,8 +100,8 @@ Some examples are:
 ```bash
 - PREFIX onto: <http://IAOS.com/def/property#> SELECT ?paper ?doi WHERE { ?paper onto:hasWord ?doi . }
 - PREFIX onto: <http://IAOS.com/def/property#> SELECT  ?topic WHERE { <http://IAOS.com/resource/belongs_to/4> onto:belongs_to_topic ?topic . }
-- PREFIX onto: <http://IAOS.com/def/property#> SELECT ?cites ?pages WHERE { <http://IAOS.com/resource/paper/Attention_Is_All_You_Need> onto:hasCites ?cites . <http://IAOS.com/resource/paper/Attention_Is_All_You_Need> onto:hasNumPages ?pages . }
-- PREFIX onto: <http://IAOS.com/def/property#> SELECT ?paper WHERE { ?paper onto:hasAuthor Sanda-Maria Avram . }
+- PREFIX onto: <http://IAOS.com/def/property#> SELECT ?cites ?doi WHERE { <http://IAOS.com/resource/paper/SPECIAL_SECTION_ON_ARTIFICIAL_INTELLIGENCE_FOR_PHYSICAL-LAYER_WIRELESS_COMMUNICATIONS> onto:hasCites ?cites . <http://IAOS.com/resource/paper/SPECIAL_SECTION_ON_ARTIFICIAL_INTELLIGENCE_FOR_PHYSICAL-LAYER_WIRELESS_COMMUNICATIONS> onto:hasDoi ?doi . }
+- PREFIX onto: <http://IAOS.com/def/property#> SELECT ?author WHERE { <http://IAOS.com/resource/paper/Attention_Is_All_You_Need> onto:hasAuthor ?author . }
 ```
 You can also run it as a Jupyter Notebook in Google Colab using Grafo.ipynb
 
