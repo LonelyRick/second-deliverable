@@ -1,4 +1,5 @@
-# second-deliverable
+# second-deliverable [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7934869.svg)](https://doi.org/10.5281/zenodo.7934869)
+
 Second deliverable of the Artificial Intelligence And Open Science In Research Software Engineering course
 
 Objective: Advanced data analysis on research publications: Given a corpus of 30
