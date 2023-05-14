@@ -16,6 +16,11 @@ owl:acknowledges a owl:ObjectProperty ;
     rdfs:domain owl:Paper ;
     rdfs:range owl:Organization .
 
+owl:belongs_to_topic a owl:ObjectProperty ;
+    rdfs:label "belongs_to_topic>" ;
+    rdfs:domain owl:belongs_to ;
+    rdfs:range owl:Topic .
+
 owl:hasAuthor a owl:ObjectProperty ;
     rdfs:label "has author>" ;
     rdfs:domain owl:Paper ;
@@ -73,10 +78,8 @@ owl:isFrom a owl:ObjectProperty ;
 
 owl:paper_belongs_to a owl:ObjectProperty ;
     rdfs:label "paper_belongs_to>" ;
-    rdfs:domain owl:Paper,
-        owl:belongs_to ;
-    rdfs:range owl:Topic,
-        owl:belongs_to .
+    rdfs:domain owl:Paper ;
+    rdfs:range owl:belongs_to .
 
 owl:similar_to_paper a owl:ObjectProperty ;
     rdfs:label "similar_to_paper>" ;
@@ -117,5 +120,4 @@ owl:belongs_to a owl:Class ;
 
 owl:Paper a owl:Class ;
     rdfs:label "Paper>" .
-
 
