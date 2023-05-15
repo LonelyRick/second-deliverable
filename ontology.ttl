@@ -39,7 +39,7 @@ owl:hasLanguage a owl:ObjectProperty ;
 owl:hasNumPages a owl:ObjectProperty ;
     rdfs:label "has num pages>" ;
     rdfs:domain owl:Paper ;
-    rdfs:range owl:NumPages .
+    rdfs:range xsd:integer .
 
 owl:hasOrganization a owl:ObjectProperty ;
     rdfs:label "has organization>" ;
@@ -54,7 +54,7 @@ owl:hasProject a owl:ObjectProperty ;
 owl:hasPublicationDate a owl:ObjectProperty ;
     rdfs:label "has publication date>" ;
     rdfs:domain owl:Paper ;
-    rdfs:range owl:PublicationDate .
+    rdfs:range xsd:date .
 
 owl:hasTitle a owl:ObjectProperty ;
     rdfs:label "has title>" ;
@@ -65,11 +65,6 @@ owl:hasWord a owl:ObjectProperty ;
     rdfs:label "has word>" ;
     rdfs:domain owl:Topic ;
     rdfs:range xsd:string .
-
-owl:isContributor a owl:ObjectProperty ;
-    rdfs:label "is contributor>" ;
-    rdfs:domain owl:Paper ;
-    rdfs:range owl:Contributor .
 
 owl:isFrom a owl:ObjectProperty ;
     rdfs:label "is from>" ;
@@ -83,19 +78,20 @@ owl:paper_belongs_to a owl:ObjectProperty ;
 
 owl:similar_to_paper a owl:ObjectProperty ;
     rdfs:label "similar_to_paper>" ;
-    rdfs:domain owl:belongs_to .
+    rdfs:domain owl:belongs_to ;
+    rdfs:range xsd:float .
 
-owl:Contributor a owl:Class ;
-    rdfs:label "Contributor>" .
+xsd:date a owl:Class ;
+    rdfs:label "date" .
+
+xsd:float a owl:Class ;
+    rdfs:label "float" .
+
+xsd:integer a owl:Class ;
+    rdfs:label "integer" .
 
 owl:Lenguage a owl:Class ;
     rdfs:label "Lenguage>" .
-
-owl:NumPages a owl:Class ;
-    rdfs:label "Num Pages>" .
-
-owl:PublicationDate a owl:Class ;
-    rdfs:label "Publication Date>" .
 
 owl:URL a owl:Class ;
     rdfs:label "U R L>" .
@@ -120,4 +116,3 @@ owl:belongs_to a owl:Class ;
 
 owl:Paper a owl:Class ;
     rdfs:label "Paper>" .
-
