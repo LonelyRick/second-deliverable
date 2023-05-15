@@ -31,7 +31,7 @@ with open(file_path, "r") as file:
           URIRef("http://IAOS.com/def/property#" + "acknowledges"),
           Literal(objeto, datatype=XSD.string)))
 
-propiedad= "acknowledges"
+
 file_path = 'resultadoOpenAlex.txt'
 clase="author"
 with open(file_path, "r",encoding='utf-8') as file:
@@ -44,14 +44,14 @@ with open(file_path, "r",encoding='utf-8') as file:
         propiedad = partes[1]
         objeto = partes[2]
         sujeto = sujeto.replace(" ", "_")
+        if(propiedad=='hasAuthor'):
+          clase="paper"
+        elif(propiedad=='hasOrganization'):
+          clase='author'
         g.add((
             URIRef("http://IAOS.com/resource/"+clase+"/"+sujeto),
             URIRef("http://IAOS.com/def/property#" + propiedad),
             Literal(objeto, datatype=XSD.string)))
-        if(clase=='author'):
-          clase="paper"
-        elif(clase=='paper'):
-          clase='author'
 
 topic_path = 'Title_topic_prob.txt' # Replace with the actual file path
 
@@ -125,35 +125,35 @@ with open(wikidata_path, 'r') as file:
           variables = json_dict['head']['vars']
           bindings = json_dict['results']['bindings']
 
-          # Print the variables and their values
           for binding in bindings:
-              for variable in variables:
-                  value = binding.get(variable, {}).get('value', None)
-                  relacion=""
-                  objeto=""
-                  if(variable=="doi"):
-                    relacion= URIRef("http://IAOS.com/def/property#"+"hasDoi")
-                    objeto = Literal(value, datatype=XSD.string)
-                  
-                  elif (variable=="cites"):
-                      relacion= URIRef("http://IAOS.com/def/property#"+"hasCites")
-                      objeto = Literal(value, datatype=XSD.string)
-                  
-                  elif(variable=="num_pag" or variable=="pages"):
-                      relacion= URIRef("http://IAOS.com/def/property#"+"hasNumPages")
-                      objeto = Literal(value, datatype=XSD.integer)
-                  
-                  elif(variable=="publication_date"):
-                      relacion= URIRef("http://IAOS.com/def/property#"+"hasPublicationDate")
-                      objeto = Literal(value, datatype=XSD.date)
-                  elif(variable=="language"):
-                      relacion= URIRef("http://IAOS.com/def/property#"+"hasLanguage")
-                      objeto = Literal(value, datatype=XSD.string)
-                  if(value is not None):
+                for variable in variables:
+                    value = binding.get(variable, {}).get('value', None)
+                    relacion=""
+                    objeto=""
+                    if(value is not None):
+                      if(variable=="doi"):
+                        relacion= URIRef("http://IAOS.com/def/property#"+"hasDoi")
+                        objeto = URIRef("http://IAOS.com/resource/doi/"+value)
+                      
+                      elif (variable=="cites"):
+                          relacion= URIRef("http://IAOS.com/def/property#"+"hasCites")
+                          objeto =  URIRef("http://IAOS.com/resource/paper/"+value)
+                      
+                      elif(variable=="num_pag" or variable=="pages"):
+                          relacion= URIRef("http://IAOS.com/def/property#"+"hasNumPages")
+                          objeto = Literal(value, datatype=XSD.integer)
+                      
+                      elif(variable=="publication_date"):
+                          relacion= URIRef("http://IAOS.com/def/property#"+"hasPublicationDate")
+                          objeto = Literal(value, datatype=XSD.date)
+                      elif(variable=="language"):
+                          relacion= URIRef("http://IAOS.com/def/property#"+"hasLanguage")
+                          objeto =  URIRef("http://IAOS.com/resource/language/"+value)
+                      
                       g.add((
-                      URIRef("http://IAOS.com/resource/paper/"+title.replace(" ", "_")),
-                      relacion,
-                      objeto))
+                          URIRef("http://IAOS.com/resource/paper/"+title.replace(" ", "_")),
+                          relacion,
+                          objeto))
 
 from rdflib import Namespace
 onto = Namespace("http://IAOS.com/def/property#")
