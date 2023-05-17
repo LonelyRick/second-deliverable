@@ -1,4 +1,4 @@
-# second-deliverable [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7934869.svg)](https://doi.org/10.5281/zenodo.7934869)
+# second-deliverable [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7937120.svg)](https://doi.org/10.5281/zenodo.7937120)
 
 Second deliverable of the Artificial Intelligence And Open Science In Research Software Engineering course
 
